@@ -1,5 +1,8 @@
 # web_scraping_for_github
+![image.png](attachment:image.png)
+
 ## step by step Procedure:
+
 -Downloading web pages using the requests library
 -Inspecting the HTML source code of a web page
 -Parsing parts of a website using Beautiful Soup
@@ -9,6 +12,7 @@
 - Using links on a page to crawl a website
 
 ### summary
+
 -with the help of the web scrapping , we easily collect any type data from any type of the website
 -web scraping make the data scientist data collection job easy
 -Here , collecting lakhs of data from different page. some pages will not load properly. At that point exeception will split out.
@@ -19,3 +23,9 @@
       -topic_html ' list of Html pages for topic to be fetched'
       -data 'list of repository, will have different folder for each topic'
       -data_html' list of folder of different topic repository html page'
+      
+### Reference link
+
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+https://pandas.pydata.org/docs/
+https://docs.python-requests.org/en/latest/
